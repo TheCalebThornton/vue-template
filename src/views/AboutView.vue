@@ -7,15 +7,6 @@
         This is the about page. You can add information about your application here.
       </p>
       <div class="flex md:flex-row flex-col items-center gap-y-4 md:gap-x-4">
-
-				<div class="flex flex-col flex-shrink items-center text-left">
-					<h1 class="text-3xl">VUE/VITE Template</h1>
-					<p>With the following plugins:</p>
-					<ol>
-						<li>Tailwindcss</li>
-						<li>Vue Router</li>
-					</ol>
-				</div>
 				<ColorsPreview 
 					title="My Custom Colors" 
 					:showStatefulColors="true"
