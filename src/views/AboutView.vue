@@ -8,7 +8,7 @@
       </p>
       <div class="flex md:flex-row flex-col items-center gap-y-4 md:gap-x-4">
 				<ColorsPreview 
-					title="My Custom Colors" 
+					title="Color Pallette" 
 					:showStatefulColors="true"
 				/>
       </div>
