@@ -21,6 +21,13 @@
             >
               About
             </router-link>
+						<router-link 
+							to="/voxel-demo" 
+							class="text-text-secondary hover:text-primary-600 px-3 py-2 rounded-md text-sm font-medium transition-colors"
+							active-class="text-primary-600 bg-primary-50"
+						>
+							Voxel Demo
+						</router-link>
           </div>
         </div>
       </div>

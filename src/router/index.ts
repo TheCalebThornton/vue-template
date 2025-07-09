@@ -9,6 +9,11 @@ const router = createRouter({
       name: 'home',
       component: HomeView
     },
+		{
+      path: '/voxel-demo',
+      name: 'voxel-demo',
+      component: () => import('@/views/VoxelDemo.vue')
+    },
     {
       path: '/about',
       name: 'about',
